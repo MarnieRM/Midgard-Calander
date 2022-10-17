@@ -216,7 +216,7 @@ def futureDateMonth(daysAhead):
 
 
 
-@tasks.loop(seconds = 30)
+@tasks.loop(hours = 24)
 async def getcalender():
     """
     Every 24 hours, print all the day of the week information and move the clock forward 3 days
