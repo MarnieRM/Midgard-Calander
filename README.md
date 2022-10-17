@@ -24,6 +24,11 @@ In line with the original posts on our discord, the similar style should help en
 
 <img src="https://github.com/MarnieRM/Midgard-Calander/blob/main/ReadmeImages/Post.PNG" width = 75% height = 75%>
 
+## What I Would Like to Add?
+
+- Code to handle what to do if the bot goes down.
+- Code to let me easily upload the bot to a Raspberry Pi for hosting.
+
 ## Libraries
 
 [discord.py](https://github.com/Rapptz/discord.py)
