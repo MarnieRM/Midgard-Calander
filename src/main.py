@@ -185,6 +185,14 @@ def eventGrabber():
                             event["data"]["conditions"]["Month"]][
                             "name"] + "\n" + REGCLEAN.sub('', event["description"]) + "\n\n\n")
 
+        elif (data["dynamic_data"]["timespan"]+1 > 11 and event["data"]["conditions"]["Month"] == 0 and (event["data"]["conditions"]["Day"] <= (((data["dynamic_data"]["day"] + 14)) % int(data["static_data"]["year_data"]["timespans"][data["dynamic_data"]["timespan"]]["length"])) < ((data["dynamic_data"]["day"] + 14)))):
+            #if this is the 12th month *and* the event is in the first month and the event is within two weeks of the current day
+            writtenDay = getDayWithEnd(event["data"]["conditions"]["Day"])
+
+            listOfEvents.append("-The " + event["name"] + " on the " + writtenDay + " of " +
+                                data["static_data"]["year_data"]["timespans"][event["data"]["conditions"]["Month"]][
+                                    "name"] + "\n" + REGCLEAN.sub('', event["description"]) + "\n\n\n")
+
 
 
 
@@ -216,7 +224,7 @@ def futureDateMonth(daysAhead):
 
 
 
-@tasks.loop(hours = 24)
+@tasks.loop(seconds = 24)
 async def getcalender():
     """
     Every 24 hours, print all the day of the week information and move the clock forward 3 days

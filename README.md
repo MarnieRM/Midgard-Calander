@@ -28,6 +28,7 @@ In line with the original posts on our discord, the similar style should help en
 
 - Code to handle what to do if the bot goes down.
 - Code to let me easily upload the bot to a Raspberry Pi for hosting.
+- Add the Birch Queen Fair to the JSON events
 
 ## Libraries
 

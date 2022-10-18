@@ -1,1 +1,683 @@
-{"static_data": {"year_data": {"first_day": 1, "overflow": true, "global_week": ["Moonday", "Volsday", "Wolfsday", "Torsday", "Marksday", "Ceresday", "Khorsday"], "timespans": [{"name": "Springmelt", "type": "month", "length": 32, "interval": 1, "offset": 0}, {"name": "Sowing", "type": "month", "length": 30, "interval": 1, "offset": 0}, {"name": "Thunders", "type": "month", "length": 31, "interval": 1, "offset": 0}, {"name": "Goldflower", "type": "month", "length": 30, "interval": 1, "offset": 0}, {"name": "Low Summer", "type": "month", "length": 30, "interval": 1, "offset": 0}, {"name": "High Summer", "type": "month", "length": 31, "interval": 1, "offset": 0}, {"name": "Harvest Tide", "type": "month", "length": 30, "interval": 1, "offset": 0}, {"name": "Redleaf", "type": "month", "length": 31, "interval": 1, "offset": 0}, {"name": "Last Leaf", "type": "month", "length": 30, "interval": 1, "offset": 0}, {"name": "Rimetrail", "type": "month", "length": 30, "interval": 1, "offset": 0}, {"name": "Snowfall", "type": "month", "length": 31, "interval": 1, "offset": 0}, {"name": "Deep Winter", "type": "month", "length": 30, "interval": 1, "offset": 0}], "leap_days": []}, "moons": [{"name": "Moon", "cycle": 30.5, "cycle_rounding": "round", "shift": 0, "granularity": 24, "color": "#ffffff", "shadow_color": "#292b4a", "hidden": false}], "clock": {"enabled": false, "render": false, "hours": 24, "minutes": 60, "offset": 0, "crowding": 0}, "seasons": {"data": [{"name": "Spring", "color": ["#1ee313", "#e74d0e"], "time": {"sunrise": {"hour": 6, "minute": 0}, "sunset": {"hour": 18, "minute": 0}}, "timespan": 0, "day": 1, "gradient": {"start": [117, 84.6, 48.2], "end": [17, 88.6, 48]}}, {"name": "Summer", "color": ["#e74d0e", "#eabf14"], "time": {"sunrise": {"hour": 6, "minute": 0}, "sunset": {"hour": 18, "minute": 0}}, "timespan": 3, "day": 1, "gradient": {"start": [17, 88.6, 48], "end": [48, 84.3, 49.8]}}, {"name": "Autumn", "color": ["#eabf14", "#0bcfe9"], "time": {"sunrise": {"hour": 6, "minute": 0}, "sunset": {"hour": 18, "minute": 0}}, "timespan": 6, "day": 1, "gradient": {"start": [48, 84.3, 49.8], "end": [187, 91, 47.8]}}, {"name": "Winter", "color": ["#0bcfe9", "#1ee313"], "time": {"sunrise": {"hour": 6, "minute": 0}, "sunset": {"hour": 18, "minute": 0}}, "timespan": 9, "day": 1, "gradient": {"start": [187, 91, 47.8], "end": [117, 84.6, 48.2]}}], "locations": [], "global_settings": {"season_offset": 0, "weather_offset": 0, "seed": 1529284323, "temp_sys": "metric", "wind_sys": "metric", "cinematic": false, "enable_weather": false, "periodic_seasons": false, "color_enabled": true, "preset_order": [1, 2, 3, 0]}}, "eras": [], "settings": {"layout": "grid", "comments": "none", "show_current_month": false, "private": false, "allow_view": true, "only_backwards": true, "only_reveal_today": false, "hide_moons": false, "hide_clock": false, "hide_events": false, "hide_eras": false, "hide_all_weather": false, "hide_future_weather": false, "add_month_number": false, "add_year_day_number": false, "default_category": -1}, "cycles": {"format": "", "data": []}}, "dynamic_data": {"year": 1751, "timespan": 2, "day": 14, "day_of_week": 3, "lunar_day": 14.5, "epoch": 640413, "custom_location": false, "location": null, "current_era": -1}, "events": [{"name": "New Years Dawn", "data": {"duration": 0, "conditions": {"Month": 0, "Day": 0, "Moons": 0, "week": 0}}, "description": "<p>At the first sign of spring comes the New Year, when the <br>light of Lada the Golden drives away evil spirits, or when <br>mages\u2019 fireworks do the same. The holiday begins in the <br>early hours with a procession to the town center, and then <br>waiting to see the sun rise over the horizon. As soon as it <br>does, celebrants clang on pots and ring bells to drive out <br>bad fortune and welcome good luck for the coming year.<br>Exchanges of gifts are common among family members, <br>and many places have superstitions about what you can <br>and cannot do on the first day of the year, such as keeping <br>a full pantry, not leaving the house, or leaving a basket of <br>food on the doorstep the night before<br></p>"}, {"name": "Rites of Spring", "data": {"duration": 0, "conditions": {"Month": 2, "Day": 20, "Moons": 0, "week": 0}}, "description": "<p>The priests of Yarila and Porevit, druids, village elders, or <br>wise women oversee the festival of sowing and fertility on <br>the equinox. The priests bless the fields and the flocks and <br>pray for their health and a successful harvest. The devout <br>spread wine and sometimes lamb\u2019s blood on the fields, and <br>young courting couples hasten to the fields after dark to <br>plant seeds of their own.<br></p>"}, {"name": "Day Of Misrule", "data": {"duration": 0, "conditions": {"Month": 2, "Day": 21, "Moons": 0, "week": 0}}, "description": "<p>The second day of the Rites of Spring is the Day of <br>Misrule. On this day, a child is pronounced high priest <br>or crowned king or queen. To celebrate the festival, a <br>child wears a crown or full priestly regalia and makes <br>pronouncements that adults seek to fulfill, though often <br>the commands lead to a day of chaos and confusion. <br>The festival is especially popular in the Seven Cities, the <br>Magocracy of Allain, and the Grand Duchy of Dornig.<br></p>"}, {"name": "Egg Festival", "data": {"duration": 0, "conditions": {"Month": 2, "Day": 27, "Moons": 0, "week": 0}}, "description": "<p>The Spring rites are a little more dangerous in the <br>Mharoti Empire, in the form of the Egg Festival. Dragons <br>retreat from their usual haunts to guard their nests, while <br>their vassals and supporters keep a week-long vigil that <br>ends with the Hatching Day<br></p>"}, {"id": 1213037, "name": "Hatching Day", "data": {"duration": 0, "conditions": {"Month": 2, "Day": 20, "Moons": 0, "week": 0}}, "description": "<p>Hatching Day, a day of joyous celebration <br>when young kobolds, dragonborn, wyverns, drakes, and <br>even true dragons are said to have their first birthday. <br>Indeed, many do hatch around this time, though rarely <br>precisely at the spring equinox.<br></p>"}, {"name": "Summer Festival", "data": {"duration": 0, "conditions": {"Month": 5, "Day": 21, "Moons": 0, "week": 0}}, "description": "<p>A festival of warmth, trade, oaths, and friendship, the <br>Summer Festival occurs at a crossroads or fairground at <br>the solstice. The Summer Festival is a popular time for <br>marriages and betrothals, horse trading, and fair dealings <br>with strangers and old friends alike. Priests of Volund are <br>especially sought after to bless anvils and livestock, hold <br>funds for wagers, and negotiate marriage contracts. The <br>festival overwhelms trade for a day in hubs such as Triolo, <br>Capleon, Salzbach, and Zobeck.<br></p>"}, {"name": "Harvest Dance", "data": {"duration": 0, "conditions": {"Month": 7, "Day": 3, "Moons": 0, "week": 0}}, "description": "<p>In the bright harvest moonlight, after the sheaves are <br>gathered and the threshed grain is stored in the granaries, <br>farmers celebrate with dances late at night. Dancing, <br>gambling, and merriment prevails, and music, foot races, <br>and even magical fireworks are sometimes part of the <br>celebrations. The festival takes different forms in every <br>nation, but all peasants and nobles count their blessings <br>at the end of the growing season and give thanks to Ceres <br>or Ninkash or Baccho. Shops, workshops, guildhalls, <br>and smithies all close during the harvest dances, and only <br>taverns, inns, and shrines are open.<br></p>"}, {"name": "Lantern Festival", "data": {"duration": 0, "conditions": {"Month": 10, "Day": 21, "Moons": 0, "week": 0}}, "description": "<p>A month after the winter solstice, when the night is dark <br>and spring seems most distant, the people celebrate the <br>returning sun with a parade of lanterns and candles. <br>They send prayers to Lada, Khors, and Aten in elaborate <br>ceremonies involving candles, lanterns, illumination <br>magic, and sometimes lantern or candle drakes. A torchlit <br>or candlelit singing parade might wind its way around an <br>entire town as part of the Lantern Festival; other places <br>send small floating lights into the sky as part of a solar <br>mass. The festival ends early for children, and at dawn for <br>the priests and the devout who maintain a vigil through <br>the night.<br></p>"}, {"name": "Bemmea, Gathering of Thoth-Hermes", "data": {"duration": 7, "conditions": {"Month": 9, "Day": 8000, "Moons": 0, "week": 4}}, "description": "<p>The </p><p>Bemmean midwinter fair of arcanists and bookbinders. </p><p>Caters to mages, wizards, and other arcanists, with a </p><p>smattering of priests of Thoth-Hermes.</p><p> Specialties: arcana, cantrips, familiars</p><p>Birch Fairgrounds, Birch Queen\u2019s Fair (Last Leaf (whenever)):</p><p>\u00a0Deep in the Summer Lands side of the Arbonesse Forest, with </p><p>an entrance somewhere along the Neurabon River, the </p><p>Birch Queen\u2019s Fair buys and sells everything from cantrips </p><p>and cloaks of elvenkind to memories, skills, and luck. A </p><p>dangerous fair for those who are not wary. The shadow fey </p><p>are often in attendance.</p><p> Specialties: elf work, herbs, nuts, </p><p>memory philters</p>"}, {"name": "Rose Knight\u2019s Emporium (Redleaf)", "data": {"duration": 2, "conditions": {"Month": 7, "Day": 23, "Moons": 0, "week": 0}}, "description": "<p>A mixture of <br>the ephemeral and the magically infused, this is perhaps <br>the most volatile and fleeting event of this kind, involving <br>perfumery, fey magic, dueling, the honor of the houses <br>of Dornig, and the swaggering strength of the alchemists <br>of Maillon. Banditry is common just outside Bourgund\u2019s <br>borders before and after the event<br> Specialties: perfumes, silks, lace<br></p>"}, {"name": "Capleon, Baron\u2019s Trade Fair", "data": {"duration": 2, "conditions": {"Month": 3, "Day": 12, "Moons": 0, "week": 0}}, "description": "<p>Spices, salt, tea, and <br>more trade hands at the Baron\u2019s Fair. Notorious for <br>espionage, intrigue, and assassinations.<br> Specialties: fish, tea, salt, spice<br></p>"}, {"name": "Horse Trade, cronepisht", "data": {"duration": 3, "conditions": {"Month": 5, "Day": 13, "Moons": 0, "week": 0}}, "description": "<p>Livestock of all kinds are <br>sold at the fair in Cronepisht, primarily sheep, oxen, and <br>cattle but also monsters such as winter wolves, double <br>eagles, dogmoles, and even some familiars. The most exotic <br>animal market outside Harkesh, Mhalmet, or Nuria.<br> Specialties: horses, oxen, sheep<br></p>"}, {"name": "Scribe\u2019s Fair (Sowing), Friula", "data": {"duration": 6, "conditions": {"Month": 1, "Day": 12, "Moons": 0, "week": 0}}, "description": "<p>\u00a0In spring, the Friulans play good <p>hosts (for once) and invite the world to buy their pearls, <p>dyes, books, and scrolls. Visitors can bring books or scrolls <p>to sell; it\u2019s an easy way to make some money in Friula.<p> Specialties: books, dyes, pearls, <p>scrolls, vellum"}, {"name": "Farmer\u2019s Fair (midsummer), Karkovar", "data": {"duration": 3, "conditions": {"Month": 4, "Day": 21, "Moons": 0, "week": 0}}, "description": "<p>The fair deals in fish and <br>horses, amber and birchbark, linen, honey, and much <br>more from the Krakovan villages. A rival to the Zobeck <br>Midsummer Fair, but catering to the Northlands and <br>(recently) to the Morgau knights and troops.<br> Specialties: amber, fish, horses, blood <br>coins<br></p>"}, {"name": "Dwarfmoot (Goldflower), Kubourg Cantonal", "data": {"duration": 7, "conditions": {"Month": 3, "Day": 23, "Moons": 0, "week": 0}}, "description": "<p>Much more than a trade fair, the Kubourg Cantonal fair features dwarven ironwork, mercenary hiring and equipping, cheeses, woolens, and blades galore. It also provides court rulings on matters of cantonal law, the election of hall chieftains, an occasion for bride-prices and wergild to be paid, and raucous masses to Ninkash (which outsiders might consider drunken beer hall fights).<br> Specialties: cheeses, tools, wool</p>\n\n<p>(can last longer than listed)<br></p>"}, {"name": "Alchemist\u2019s Gatherum (Harvest Tide), Maillon", "data": {"duration": 4, "conditions": {"Month": 6, "Day": 18, "Moons": 0, "week": 0}}, "description": "<p>The strange folk <br>of Maillon wait until after the harvest and then sell all <br>the potions they have left before winter sets in. Some <br>remarkable concoctions are available, as well as many <br>frauds. A side trade in ceramic containers and copperwork <br>has grown in recent years.<br> Specialties: alchemy, ceramics<br></p>"}, {"name": "Fleet Fair (Thunderers), Triolo", "data": {"duration": 1, "conditions": {"Month": 2, "Day": 16, "Moons": 0, "week": 0}}, "description": "<p>The Fleet Fair started as a way to <br>equip Triolan ships and merchants of the Middle Sea with <br>sailcloth and rope. Now the Triolans sell a great deal of <br>spice and glass as well. Traditionally held on Sphinx Island <br>at the harbor entrance.<br> Specialties: glass, spices, sailcloth<br></p>"}, {"name": "Salt Fair (Redleaf), Salzbach", "data": {"duration": 3, "conditions": {"Month": 7, "Day": 5, "Moons": 0, "week": 0}}, "description": "<p>The salt of Salzbach sells to the <br>highest bidders in the autumn of each year, and taken on <br>the roads before winter sets in. A quiet, mercantile fair <br>with little carousing and a lot of money changing hands.<br> Specialties: dyed leathers, salt<br></p>"}, {"name": "Wine Week(Midsummer), Zigistad", "data": {"duration": 6, "conditions": {"Month": 5, "Day": 2, "Moons": 0, "week": 0}}, "description": "<p>Vintners sell barrels of wine, <br>dwarves sell ingots of ore, and everyone goes home happy. <br>A rather rowdy festival in a devout city, sometimes leading <br>to brawls and arrests. Centaurs are explicitly not welcome. <br>Elfmarked priests of Baccho sometimes see it as a good <br>place to preach the tenets of that fading faith, and hold at <br>least one Drunkard\u2019s Mass during the week.<br> Specialties: metals, wine<br></p>"}, {"name": "Midsummer Fair (Midsummer), Zobeck", "data": {"duration": 3, "conditions": {"Month": 4, "Day": 21, "Moons": 0, "week": 0}}, "description": "<p>Featuring the finest <br>weaving, the most outrageous jewelry and clockworks, and <br>sometimes a flying city visiting from Sikkim. The Zobeck <br>Fair is a spectacle like no other, and recently, the shadow <br>fey have brought moonsteel weapons and memory philters<br>to sell at the fair. On rare occasions, the Griffon Knights <br>auction a surplus griffon egg.<br> Specialties: clockwork, fine weavings, <br>jewelry<br></p>"}, {"name": "Axe Festival (Every Lunar Eclipse)", "data": {"duration": 1, "conditions": {"Month": 20, "Day": 0, "Moons": 0, "week": 0}}, "description": "<p>A rare festival held during the red moon <br>of a lunar eclipse, the Axe Festival is a propitious time to <br>sacrifice to Hecate or (for those of darker bent) to Marena, <br>the Red Goddess. Blood rites, kidnappings, and ritual <br>torture can mar the celebrations, but some wizards and <br>witches swear by the festival\u2019s power when crafting new <br>magical items<br></p>"}, {"name": "Bear King\u2019s Challenge (Some time, maybe in the spring)", "data": {"duration": 1, "conditions": {"Month": 20, "Day": 0, "Moons": 0, "week": 0}}, "description": "<p>Each year in Bj\u00f6rnrike, or in <br>the fey lands near it, the Bear King calls the strong and the <br>wise to a set of challenges. Each year the challenges vary <br>somewhat, with old contests and new, and each year the <br>winner of the contests is crowned as the King of Bears\u2014<br>and some say, is transformed into one of the bearfolk! It is <br>a festival much recounted in song and fey poetry, though <br>the actual gathering is smaller than some.<br></p>"}, {"name": "Armoring Fair (Mustering), Melana", "data": {"duration": 1, "conditions": {"Month": 20, "Day": 0, "Moons": 0, "week": 0}}, "description": "<p>The smiths of Melana sell a <br>great deal of iron and weapons to their cantonal cousins <br>each year, and equally as much to the mercenaries of the <br>Seven Cities. The whole city reeks of oil and iron for days.<br> Specialties: armor, knives, weapons<br></p>"}, {"name": "Ghost Night (first new moon of  the winter)", "data": {"duration": 0, "conditions": {"Month": 9, "Day": 1, "Moons": "New Moon", "week": 0}}, "description": "<p>Also called Hag Night, this goblin festival <br>is honored with masks, invocations of the elders, and <br>candle offerings. The Ghost Night is the first new moon of <br>the winter, when things are their darkest. Some celebrants <br>smoke or offer requiem at this time, and seek answers <br>from departed elders.<br></p>"}, {"name": "Night of Open Roads( first winter moon)", "data": {"duration": 0, "conditions": {"Month": 9, "Day": 16, "Moons": "Full Moon", "week": 0}}, "description": "<p>The first winter moon is a <br>time to communicate with ancestors and spirits of the <br>dead. This festival is especially sacred to Charun, Lord <br>of the Dead. It is also an unusually good time to travel <br>to the Shadow Realm, to open portals, and to build <br>secret shrines or to raise the dead, and thus it is beloved <br>of necromancers. The festival\u2019s celebration is especially <br>common in Dornig and the Seven Cities.<br></p>"}, {"name": "Slaughter Festival", "data": {"duration": 6, "conditions": {"Month": 8, "Day": 6, "Moons": 0, "week": 0}}, "description": "<p>Also called the Brewer\u2019s Festival, <br>the Slaughter Festival focuses around meat and drink: <br>the autumn butchering plus drinking the first ale of the <br>season, overseen by the clergy of Ninkash. Animals are <br>smoked or salted for the winter, and the best beer is chosen <br>by the goddess (or her priests). Trombei holds the largest <br>celebration of the Slaughter Festival. Priests of the Hunter <br>celebrate as well, though generally only in the dark woods; <br>stories claim their sacrifice is always a grown man or <br>woman, hunted through the forests, their boiled bones left <br></p>"}], "event_categories": [{"id": 58703, "name": "Trade Fairs", "calendar_id": 49763, "category_settings": {"hide": false, "player_usable": false}, "event_settings": {"color": "Dark-Solid", "text": "text", "hide": false, "print": false}, "created_at": "2022-06-21 21:57:31", "updated_at": "2022-06-21 21:57:31", "sort_by": 0}, {"id": 58704, "name": "Major Festival", "calendar_id": 49763, "category_settings": {"hide": false, "player_usable": false}, "event_settings": {"color": "Dark-Solid", "text": "text", "hide": false, "print": false}, "created_at": "2022-06-21 21:57:31", "updated_at": "2022-06-21 21:57:31", "sort_by": 1}]}
+{
+  "static_data": {
+    "year_data": {
+      "first_day": 1,
+      "overflow": true,
+      "global_week": [
+        "Moonday",
+        "Volsday",
+        "Wolfsday",
+        "Torsday",
+        "Marksday",
+        "Ceresday",
+        "Khorsday"
+      ],
+      "timespans": [
+        {
+          "name": "Springmelt",
+          "type": "month",
+          "length": 32,
+          "interval": 1,
+          "offset": 0
+        },
+        {
+          "name": "Sowing",
+          "type": "month",
+          "length": 30,
+          "interval": 1,
+          "offset": 0
+        },
+        {
+          "name": "Thunders",
+          "type": "month",
+          "length": 31,
+          "interval": 1,
+          "offset": 0
+        },
+        {
+          "name": "Goldflower",
+          "type": "month",
+          "length": 30,
+          "interval": 1,
+          "offset": 0
+        },
+        {
+          "name": "Low Summer",
+          "type": "month",
+          "length": 30,
+          "interval": 1,
+          "offset": 0
+        },
+        {
+          "name": "High Summer",
+          "type": "month",
+          "length": 31,
+          "interval": 1,
+          "offset": 0
+        },
+        {
+          "name": "Harvest Tide",
+          "type": "month",
+          "length": 30,
+          "interval": 1,
+          "offset": 0
+        },
+        {
+          "name": "Redleaf",
+          "type": "month",
+          "length": 31,
+          "interval": 1,
+          "offset": 0
+        },
+        {
+          "name": "Last Leaf",
+          "type": "month",
+          "length": 30,
+          "interval": 1,
+          "offset": 0
+        },
+        {
+          "name": "Rimetrail",
+          "type": "month",
+          "length": 30,
+          "interval": 1,
+          "offset": 0
+        },
+        {
+          "name": "Snowfall",
+          "type": "month",
+          "length": 31,
+          "interval": 1,
+          "offset": 0
+        },
+        {
+          "name": "Deep Winter",
+          "type": "month",
+          "length": 30,
+          "interval": 1,
+          "offset": 0
+        }
+      ],
+      "leap_days": []
+    },
+    "moons": [
+      {
+        "name": "Moon",
+        "cycle": 30.5,
+        "cycle_rounding": "round",
+        "shift": 0,
+        "granularity": 24,
+        "color": "#ffffff",
+        "shadow_color": "#292b4a",
+        "hidden": false
+      }
+    ],
+    "clock": {
+      "enabled": false,
+      "render": false,
+      "hours": 24,
+      "minutes": 60,
+      "offset": 0,
+      "crowding": 0
+    },
+    "seasons": {
+      "data": [
+        {
+          "name": "Spring",
+          "color": [
+            "#1ee313",
+            "#e74d0e"
+          ],
+          "time": {
+            "sunrise": {
+              "hour": 6,
+              "minute": 0
+            },
+            "sunset": {
+              "hour": 18,
+              "minute": 0
+            }
+          },
+          "timespan": 0,
+          "day": 1,
+          "gradient": {
+            "start": [
+              117,
+              84.6,
+              48.2
+            ],
+            "end": [
+              17,
+              88.6,
+              48
+            ]
+          }
+        },
+        {
+          "name": "Summer",
+          "color": [
+            "#e74d0e",
+            "#eabf14"
+          ],
+          "time": {
+            "sunrise": {
+              "hour": 6,
+              "minute": 0
+            },
+            "sunset": {
+              "hour": 18,
+              "minute": 0
+            }
+          },
+          "timespan": 3,
+          "day": 1,
+          "gradient": {
+            "start": [
+              17,
+              88.6,
+              48
+            ],
+            "end": [
+              48,
+              84.3,
+              49.8
+            ]
+          }
+        },
+        {
+          "name": "Autumn",
+          "color": [
+            "#eabf14",
+            "#0bcfe9"
+          ],
+          "time": {
+            "sunrise": {
+              "hour": 6,
+              "minute": 0
+            },
+            "sunset": {
+              "hour": 18,
+              "minute": 0
+            }
+          },
+          "timespan": 6,
+          "day": 1,
+          "gradient": {
+            "start": [
+              48,
+              84.3,
+              49.8
+            ],
+            "end": [
+              187,
+              91,
+              47.8
+            ]
+          }
+        },
+        {
+          "name": "Winter",
+          "color": [
+            "#0bcfe9",
+            "#1ee313"
+          ],
+          "time": {
+            "sunrise": {
+              "hour": 6,
+              "minute": 0
+            },
+            "sunset": {
+              "hour": 18,
+              "minute": 0
+            }
+          },
+          "timespan": 9,
+          "day": 1,
+          "gradient": {
+            "start": [
+              187,
+              91,
+              47.8
+            ],
+            "end": [
+              117,
+              84.6,
+              48.2
+            ]
+          }
+        }
+      ],
+      "locations": [],
+      "global_settings": {
+        "season_offset": 0,
+        "weather_offset": 0,
+        "seed": 1529284323,
+        "temp_sys": "metric",
+        "wind_sys": "metric",
+        "cinematic": false,
+        "enable_weather": false,
+        "periodic_seasons": false,
+        "color_enabled": true,
+        "preset_order": [
+          1,
+          2,
+          3,
+          0
+        ]
+      }
+    },
+    "eras": [],
+    "settings": {
+      "layout": "grid",
+      "comments": "none",
+      "show_current_month": false,
+      "private": false,
+      "allow_view": true,
+      "only_backwards": true,
+      "only_reveal_today": false,
+      "hide_moons": false,
+      "hide_clock": false,
+      "hide_events": false,
+      "hide_eras": false,
+      "hide_all_weather": false,
+      "hide_future_weather": false,
+      "add_month_number": false,
+      "add_year_day_number": false,
+      "default_category": -1
+    },
+    "cycles": {
+      "format": "",
+      "data": []
+    }
+  },
+  "dynamic_data": {
+    "year": 1750,
+    "timespan": 10,
+    "day": 29,
+    "day_of_week": 2,
+    "lunar_day": 29.0,
+    "epoch": 640413,
+    "custom_location": false,
+    "location": null,
+    "current_era": -1
+  },
+  "events": [
+    {
+      "name": "New Years Dawn",
+      "data": {
+        "duration": 0,
+        "conditions": {
+          "Month": 0,
+          "Day": 1,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "<p>At the first sign of spring comes the New Year, when the <br>light of Lada the Golden drives away evil spirits, or when <br>mages\u2019 fireworks do the same. The holiday begins in the <br>early hours with a procession to the town center, and then <br>waiting to see the sun rise over the horizon. As soon as it <br>does, celebrants clang on pots and ring bells to drive out <br>bad fortune and welcome good luck for the coming year.<br>Exchanges of gifts are common among family members, <br>and many places have superstitions about what you can <br>and cannot do on the first day of the year, such as keeping <br>a full pantry, not leaving the house, or leaving a basket of <br>food on the doorstep the night before<br></p>"
+    },
+    {
+      "name": "Rites of Spring",
+      "data": {
+        "duration": 0,
+        "conditions": {
+          "Month": 2,
+          "Day": 20,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "<p>The priests of Yarila and Porevit, druids, village elders, or <br>wise women oversee the festival of sowing and fertility on <br>the equinox. The priests bless the fields and the flocks and <br>pray for their health and a successful harvest. The devout <br>spread wine and sometimes lamb\u2019s blood on the fields, and <br>young courting couples hasten to the fields after dark to <br>plant seeds of their own.<br></p>"
+    },
+    {
+      "name": "Day Of Misrule",
+      "data": {
+        "duration": 0,
+        "conditions": {
+          "Month": 2,
+          "Day": 21,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "<p>The second day of the Rites of Spring is the Day of <br>Misrule. On this day, a child is pronounced high priest <br>or crowned king or queen. To celebrate the festival, a <br>child wears a crown or full priestly regalia and makes <br>pronouncements that adults seek to fulfill, though often <br>the commands lead to a day of chaos and confusion. <br>The festival is especially popular in the Seven Cities, the <br>Magocracy of Allain, and the Grand Duchy of Dornig.<br></p>"
+    },
+    {
+      "name": "Egg Festival",
+      "data": {
+        "duration": 0,
+        "conditions": {
+          "Month": 2,
+          "Day": 27,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "<p>The Spring rites are a little more dangerous in the <br>Mharoti Empire, in the form of the Egg Festival. Dragons <br>retreat from their usual haunts to guard their nests, while <br>their vassals and supporters keep a week-long vigil that <br>ends with the Hatching Day<br></p>"
+    },
+    {
+      "id": 1213037,
+      "name": "Hatching Day",
+      "data": {
+        "duration": 0,
+        "conditions": {
+          "Month": 2,
+          "Day": 20,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "<p>Hatching Day, a day of joyous celebration <br>when young kobolds, dragonborn, wyverns, drakes, and <br>even true dragons are said to have their first birthday. <br>Indeed, many do hatch around this time, though rarely <br>precisely at the spring equinox.<br></p>"
+    },
+    {
+      "name": "Summer Festival",
+      "data": {
+        "duration": 0,
+        "conditions": {
+          "Month": 5,
+          "Day": 21,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "<p>A festival of warmth, trade, oaths, and friendship, the <br>Summer Festival occurs at a crossroads or fairground at <br>the solstice. The Summer Festival is a popular time for <br>marriages and betrothals, horse trading, and fair dealings <br>with strangers and old friends alike. Priests of Volund are <br>especially sought after to bless anvils and livestock, hold <br>funds for wagers, and negotiate marriage contracts. The <br>festival overwhelms trade for a day in hubs such as Triolo, <br>Capleon, Salzbach, and Zobeck.<br></p>"
+    },
+    {
+      "name": "Harvest Dance",
+      "data": {
+        "duration": 0,
+        "conditions": {
+          "Month": 7,
+          "Day": 3,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "<p>In the bright harvest moonlight, after the sheaves are <br>gathered and the threshed grain is stored in the granaries, <br>farmers celebrate with dances late at night. Dancing, <br>gambling, and merriment prevails, and music, foot races, <br>and even magical fireworks are sometimes part of the <br>celebrations. The festival takes different forms in every <br>nation, but all peasants and nobles count their blessings <br>at the end of the growing season and give thanks to Ceres <br>or Ninkash or Baccho. Shops, workshops, guildhalls, <br>and smithies all close during the harvest dances, and only <br>taverns, inns, and shrines are open.<br></p>"
+    },
+    {
+      "name": "Lantern Festival",
+      "data": {
+        "duration": 0,
+        "conditions": {
+          "Month": 10,
+          "Day": 21,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "<p>A month after the winter solstice, when the night is dark <br>and spring seems most distant, the people celebrate the <br>returning sun with a parade of lanterns and candles. <br>They send prayers to Lada, Khors, and Aten in elaborate <br>ceremonies involving candles, lanterns, illumination <br>magic, and sometimes lantern or candle drakes. A torchlit <br>or candlelit singing parade might wind its way around an <br>entire town as part of the Lantern Festival; other places <br>send small floating lights into the sky as part of a solar <br>mass. The festival ends early for children, and at dawn for <br>the priests and the devout who maintain a vigil through <br>the night.<br></p>"
+    },
+    {
+      "name": "Bemmea, Gathering of Thoth-Hermes",
+      "data": {
+        "duration": 7,
+        "conditions": {
+          "Month": 9,
+          "Day": 8000,
+          "Moons": 0,
+          "week": 4
+        }
+      },
+      "description": "<p>The </p><p>Bemmean midwinter fair of arcanists and bookbinders. </p><p>Caters to mages, wizards, and other arcanists, with a </p><p>smattering of priests of Thoth-Hermes.</p><p> Specialties: arcana, cantrips, familiars</p>"
+    },
+    {
+      "name": "Rose Knight\u2019s Emporium (Redleaf)",
+      "data": {
+        "duration": 2,
+        "conditions": {
+          "Month": 7,
+          "Day": 23,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "<p>A mixture of <br>the ephemeral and the magically infused, this is perhaps <br>the most volatile and fleeting event of this kind, involving <br>perfumery, fey magic, dueling, the honor of the houses <br>of Dornig, and the swaggering strength of the alchemists <br>of Maillon. Banditry is common just outside Bourgund\u2019s <br>borders before and after the event<br> Specialties: perfumes, silks, lace<br></p>"
+    },
+    {
+      "name": "Capleon, Baron\u2019s Trade Fair",
+      "data": {
+        "duration": 2,
+        "conditions": {
+          "Month": 3,
+          "Day": 12,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "<p>Spices, salt, tea, and <br>more trade hands at the Baron\u2019s Fair. Notorious for <br>espionage, intrigue, and assassinations.<br> Specialties: fish, tea, salt, spice<br></p>"
+    },
+    {
+      "name": "Horse Trade, cronepisht",
+      "data": {
+        "duration": 3,
+        "conditions": {
+          "Month": 5,
+          "Day": 13,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "<p>Livestock of all kinds are <br>sold at the fair in Cronepisht, primarily sheep, oxen, and <br>cattle but also monsters such as winter wolves, double <br>eagles, dogmoles, and even some familiars. The most exotic <br>animal market outside Harkesh, Mhalmet, or Nuria.<br> Specialties: horses, oxen, sheep<br></p>"
+    },
+    {
+      "name": "Scribe\u2019s Fair (Sowing), Friula",
+      "data": {
+        "duration": 6,
+        "conditions": {
+          "Month": 1,
+          "Day": 12,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "<p>\u00a0In spring, the Friulans play good <p>hosts (for once) and invite the world to buy their pearls, <p>dyes, books, and scrolls. Visitors can bring books or scrolls <p>to sell; it\u2019s an easy way to make some money in Friula.<p> Specialties: books, dyes, pearls, <p>scrolls, vellum"
+    },
+    {
+      "name": "Farmer\u2019s Fair (midsummer), Karkovar",
+      "data": {
+        "duration": 3,
+        "conditions": {
+          "Month": 4,
+          "Day": 21,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "<p>The fair deals in fish and <br>horses, amber and birchbark, linen, honey, and much <br>more from the Krakovan villages. A rival to the Zobeck <br>Midsummer Fair, but catering to the Northlands and <br>(recently) to the Morgau knights and troops.<br> Specialties: amber, fish, horses, blood <br>coins<br></p>"
+    },
+    {
+      "name": "Dwarfmoot (Goldflower), Kubourg Cantonal",
+      "data": {
+        "duration": 7,
+        "conditions": {
+          "Month": 3,
+          "Day": 23,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "<p>Much more than a trade fair, the Kubourg Cantonal fair features dwarven ironwork, mercenary hiring and equipping, cheeses, woolens, and blades galore. It also provides court rulings on matters of cantonal law, the election of hall chieftains, an occasion for bride-prices and wergild to be paid, and raucous masses to Ninkash (which outsiders might consider drunken beer hall fights).<br> Specialties: cheeses, tools, wool</p>\n\n<p>(can last longer than listed)<br></p>"
+    },
+    {
+      "name": "Alchemist\u2019s Gatherum (Harvest Tide), Maillon",
+      "data": {
+        "duration": 4,
+        "conditions": {
+          "Month": 6,
+          "Day": 18,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "<p>The strange folk <br>of Maillon wait until after the harvest and then sell all <br>the potions they have left before winter sets in. Some <br>remarkable concoctions are available, as well as many <br>frauds. A side trade in ceramic containers and copperwork <br>has grown in recent years.<br> Specialties: alchemy, ceramics<br></p>"
+    },
+    {
+      "name": "Fleet Fair (Thunderers), Triolo",
+      "data": {
+        "duration": 1,
+        "conditions": {
+          "Month": 2,
+          "Day": 16,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "<p>The Fleet Fair started as a way to <br>equip Triolan ships and merchants of the Middle Sea with <br>sailcloth and rope. Now the Triolans sell a great deal of <br>spice and glass as well. Traditionally held on Sphinx Island <br>at the harbor entrance.<br> Specialties: glass, spices, sailcloth<br></p>"
+    },
+    {
+      "name": "Salt Fair (Redleaf), Salzbach",
+      "data": {
+        "duration": 3,
+        "conditions": {
+          "Month": 7,
+          "Day": 5,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "<p>The salt of Salzbach sells to the <br>highest bidders in the autumn of each year, and taken on <br>the roads before winter sets in. A quiet, mercantile fair <br>with little carousing and a lot of money changing hands.<br> Specialties: dyed leathers, salt<br></p>"
+    },
+    {
+      "name": "Wine Week(Midsummer), Zigistad",
+      "data": {
+        "duration": 6,
+        "conditions": {
+          "Month": 5,
+          "Day": 2,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "<p>Vintners sell barrels of wine, <br>dwarves sell ingots of ore, and everyone goes home happy. <br>A rather rowdy festival in a devout city, sometimes leading <br>to brawls and arrests. Centaurs are explicitly not welcome. <br>Elfmarked priests of Baccho sometimes see it as a good <br>place to preach the tenets of that fading faith, and hold at <br>least one Drunkard\u2019s Mass during the week.<br> Specialties: metals, wine<br></p>"
+    },
+    {
+      "name": "Midsummer Fair (Midsummer), Zobeck",
+      "data": {
+        "duration": 3,
+        "conditions": {
+          "Month": 4,
+          "Day": 21,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "<p>Featuring the finest <br>weaving, the most outrageous jewelry and clockworks, and <br>sometimes a flying city visiting from Sikkim. The Zobeck <br>Fair is a spectacle like no other, and recently, the shadow <br>fey have brought moonsteel weapons and memory philters<br>to sell at the fair. On rare occasions, the Griffon Knights <br>auction a surplus griffon egg.<br> Specialties: clockwork, fine weavings, <br>jewelry<br></p>"
+    },
+    {
+      "name": "Axe Festival (Every Lunar Eclipse)",
+      "data": {
+        "duration": 1,
+        "conditions": {
+          "Month": 20,
+          "Day": 0,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "<p>A rare festival held during the red moon <br>of a lunar eclipse, the Axe Festival is a propitious time to <br>sacrifice to Hecate or (for those of darker bent) to Marena, <br>the Red Goddess. Blood rites, kidnappings, and ritual <br>torture can mar the celebrations, but some wizards and <br>witches swear by the festival\u2019s power when crafting new <br>magical items<br></p>"
+    },
+    {
+      "name": "Bear King\u2019s Challenge (Some time, maybe in the spring)",
+      "data": {
+        "duration": 1,
+        "conditions": {
+          "Month": 20,
+          "Day": 0,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "<p>Each year in Bj\u00f6rnrike, or in <br>the fey lands near it, the Bear King calls the strong and the <br>wise to a set of challenges. Each year the challenges vary <br>somewhat, with old contests and new, and each year the <br>winner of the contests is crowned as the King of Bears\u2014<br>and some say, is transformed into one of the bearfolk! It is <br>a festival much recounted in song and fey poetry, though <br>the actual gathering is smaller than some.<br></p>"
+    },
+    {
+      "name": "Armoring Fair (Mustering), Melana",
+      "data": {
+        "duration": 1,
+        "conditions": {
+          "Month": 20,
+          "Day": 0,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "<p>The smiths of Melana sell a <br>great deal of iron and weapons to their cantonal cousins <br>each year, and equally as much to the mercenaries of the <br>Seven Cities. The whole city reeks of oil and iron for days.<br> Specialties: armor, knives, weapons<br></p>"
+    },
+    {
+      "name": "Ghost Night (first new moon of  the winter)",
+      "data": {
+        "duration": 0,
+        "conditions": {
+          "Month": 9,
+          "Day": 1,
+          "Moons": "New Moon",
+          "week": 0
+        }
+      },
+      "description": "<p>Also called Hag Night, this goblin festival <br>is honored with masks, invocations of the elders, and <br>candle offerings. The Ghost Night is the first new moon of <br>the winter, when things are their darkest. Some celebrants <br>smoke or offer requiem at this time, and seek answers <br>from departed elders.<br></p>"
+    },
+    {
+      "name": "Night of Open Roads( first winter moon)",
+      "data": {
+        "duration": 0,
+        "conditions": {
+          "Month": 9,
+          "Day": 16,
+          "Moons": "Full Moon",
+          "week": 0
+        }
+      },
+      "description": "<p>The first winter moon is a <br>time to communicate with ancestors and spirits of the <br>dead. This festival is especially sacred to Charun, Lord <br>of the Dead. It is also an unusually good time to travel <br>to the Shadow Realm, to open portals, and to build <br>secret shrines or to raise the dead, and thus it is beloved <br>of necromancers. The festival\u2019s celebration is especially <br>common in Dornig and the Seven Cities.<br></p>"
+    },
+    {
+      "name": "Slaughter Festival",
+      "data": {
+        "duration": 6,
+        "conditions": {
+          "Month": 8,
+          "Day": 6,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "<p>Also called the Brewer\u2019s Festival, <br>the Slaughter Festival focuses around meat and drink: <br>the autumn butchering plus drinking the first ale of the <br>season, overseen by the clergy of Ninkash. Animals are <br>smoked or salted for the winter, and the best beer is chosen <br>by the goddess (or her priests). Trombei holds the largest <br>celebration of the Slaughter Festival. Priests of the Hunter <br>celebrate as well, though generally only in the dark woods; <br>stories claim their sacrifice is always a grown man or <br>woman, hunted through the forests, their boiled bones left <br></p>"
+    }
+  ],
+  "event_categories": [
+    {
+      "id": 58703,
+      "name": "Trade Fairs",
+      "calendar_id": 49763,
+      "category_settings": {
+        "hide": false,
+        "player_usable": false
+      },
+      "event_settings": {
+        "color": "Dark-Solid",
+        "text": "text",
+        "hide": false,
+        "print": false
+      },
+      "created_at": "2022-06-21 21:57:31",
+      "updated_at": "2022-06-21 21:57:31",
+      "sort_by": 0
+    },
+    {
+      "id": 58704,
+      "name": "Major Festival",
+      "calendar_id": 49763,
+      "category_settings": {
+        "hide": false,
+        "player_usable": false
+      },
+      "event_settings": {
+        "color": "Dark-Solid",
+        "text": "text",
+        "hide": false,
+        "print": false
+      },
+      "created_at": "2022-06-21 21:57:31",
+      "updated_at": "2022-06-21 21:57:31",
+      "sort_by": 1
+    }
+  ]
+}
