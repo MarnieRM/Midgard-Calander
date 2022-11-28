@@ -98,8 +98,7 @@
           "offset": 0
         }
       ],
-      "leap_days": [
-      ]
+      "leap_days": []
     },
     "moons": [
       {
@@ -292,11 +291,11 @@
     }
   },
   "dynamic_data": {
-    "year": 1750,
-    "timespan": 5,
-    "day": 7,
-    "day_of_week": 5,
-    "lunar_day": 10.360655737704918032786885245902,
+    "year": 1751,
+    "timespan": 2,
+    "day": 26,
+    "day_of_week": 3,
+    "lunar_day": 27.0,
     "epoch": 640413,
     "custom_location": false,
     "location": null,
@@ -309,12 +308,25 @@
         "duration": 0,
         "conditions": {
           "Month": 0,
-          "Day": 0,
+          "Day": 1,
           "Moons": 0,
           "week": 0
         }
       },
-      "description": "<p>At the first sign of spring comes the New Year, when the <br>light of Lada the Golden drives away evil spirits, or when <br>mages\u2019 fireworks do the same. The holiday begins in the <br>early hours with a procession to the town center, and then <br>waiting to see the sun rise over the horizon. As soon as it <br>does, celebrants clang on pots and ring bells to drive out <br>bad fortune and welcome good luck for the coming year.<br>Exchanges of gifts are common among family members, <br>and many places have superstitions about what you can <br>and cannot do on the first day of the year, such as keeping <br>a full pantry, not leaving the house, or leaving a basket of <br>food on the doorstep the night before<br><\/p>"
+      "description": "<p>At the first sign of spring comes the New Year, when the <br>light of Lada the Golden drives away evil spirits, or when <br>mages\u2019 fireworks do the same. The holiday begins in the <br>early hours with a procession to the town center, and then <br>waiting to see the sun rise over the horizon. As soon as it <br>does, celebrants clang on pots and ring bells to drive out <br>bad fortune and welcome good luck for the coming year.<br>Exchanges of gifts are common among family members, <br>and many places have superstitions about what you can <br>and cannot do on the first day of the year, such as keeping <br>a full pantry, not leaving the house, or leaving a basket of <br>food on the doorstep the night before<br></p>"
+    },
+    {
+      "name": "Mustering Days",
+      "data": {
+        "duration": 2,
+        "conditions": {
+          "Month": 0,
+          "Day": 16,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "The campaigning season starts early in the spring (especially in the Seven Cities) and the mustering is the day when soldiers must report to their captains, captains to their lords, and lords to their kings. It is a day of oaths, calling up of peasant levies, and launching a season of raids, war, and commerce. The holiday stretches over three days: one to travel to the festival, then a day for swearing of oaths and contracts, then a day of blessings and prayer to Mavros before the march to war. The holiday is widely celebrated in the Magdar Kingdom, Bourgund, Verrayne, and Melana, and serves as an initiation for young warriors, who fight \"Mustering Bouts\" against each other to crown a \"Chosen of Mavros.\" The holiday\u00e2\u20ac\u2122s variable date is declared by the local priest of Thor, Perun, or Mavros. Given weather and climate, the dates of the holiday depend on the condition of the roads and rivers. In the sunny south, Mustering can take place in the first week of Springmelt (or even the last week of Deep Winter). In the north, Mustering rarely takes place in Springmelt, and the holiday more often ocurs in the first or second week of Sowing."
     },
     {
       "name": "Rites of Spring",
@@ -327,7 +339,20 @@
           "week": 0
         }
       },
-      "description": "<p>The priests of Yarila and Porevit, druids, village elders, or <br>wise women oversee the festival of sowing and fertility on <br>the equinox. The priests bless the fields and the flocks and <br>pray for their health and a successful harvest. The devout <br>spread wine and sometimes lamb\u2019s blood on the fields, and <br>young courting couples hasten to the fields after dark to <br>plant seeds of their own.<br><\/p>"
+      "description": "<p>The priests of Yarila and Porevit, druids, village elders, or <br>wise women oversee the festival of sowing and fertility on <br>the equinox. The priests bless the fields and the flocks and <br>pray for their health and a successful harvest. The devout <br>spread wine and sometimes lamb\u2019s blood on the fields, and <br>young courting couples hasten to the fields after dark to <br>plant seeds of their own.<br></p>"
+    },
+    {
+      "name": "Spring Festival, Zobeck",
+      "data": {
+        "duration": 0,
+        "conditions": {
+          "Month": 2,
+          "Day": 20,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "\"Attending the Spring Rite\" has become a polite way of saying half the citizens of Zobeck spend a night in the month of Thunders rutting like rabbits, while the other half pretend not to notice. \nTorches and bonfires rule the fairgrounds and lanterns glimmer on every street. Young and old alike celebrate the rites together, making the festival as much about community building as religious observance. \nThe rites of Porevit and Yarila forbid payment for affection, so the courtesans and lovers for sale see the Spring Festival as a day off, a chance to celebrate love instead of simply selling it. Anyone seeking partners offers them the finest flower or bouquet they can afford, or sometimes a simple garland. Even those who live alone or celibate often receive flowers from admirers or friends, and some describe the city as buried in petals. \nAmong many young people in the city, the Spring Festival commonly results in weddings at Midwinter and/or births the following spring. Even when lacking the vows, the births carry no shame; children born in the springtime to the brides and grooms of Porevit and Yarila are considered lucky. Those born precisely on the winter solstice are always invited to join the Green Gods' priesthood and enter into the druidic mysteries at the age of 10 or 11. Though dedicated to the Green Gods, Lada also gains from this festival, as many a new love often blooms here."
     },
     {
       "name": "Day Of Misrule",
@@ -340,20 +365,20 @@
           "week": 0
         }
       },
-      "description": "<p>The second day of the Rites of Spring is the Day of <br>Misrule. On this day, a child is pronounced high priest <br>or crowned king or queen. To celebrate the festival, a <br>child wears a crown or full priestly regalia and makes <br>pronouncements that adults seek to fulfill, though often <br>the commands lead to a day of chaos and confusion. <br>The festival is especially popular in the Seven Cities, the <br>Magocracy of Allain, and the Grand Duchy of Dornig.<br><\/p>"
+      "description": "<p>The second day of the Rites of Spring is the Day of <br>Misrule. On this day, a child is pronounced high priest <br>or crowned king or queen. To celebrate the festival, a <br>child wears a crown or full priestly regalia and makes <br>pronouncements that adults seek to fulfill, though often <br>the commands lead to a day of chaos and confusion. <br>The festival is especially popular in the Seven Cities, the <br>Magocracy of Allain, and the Grand Duchy of Dornig.<br></p>"
     },
     {
       "name": "Egg Festival",
       "data": {
-        "duration": 0,
+        "duration": 7,
         "conditions": {
           "Month": 2,
-          "Day": 27,
+          "Day": 13,
           "Moons": 0,
           "week": 0
         }
       },
-      "description": "<p>The Spring rites are a little more dangerous in the <br>Mharoti Empire, in the form of the Egg Festival. Dragons <br>retreat from their usual haunts to guard their nests, while <br>their vassals and supporters keep a week-long vigil that <br>ends with the Hatching Day<br><\/p>"
+      "description": "<p>The Spring rites are a little more dangerous in the <br>Mharoti Empire, in the form of the Egg Festival. Dragons <br>retreat from their usual haunts to guard their nests, while <br>their vassals and supporters keep a week-long vigil that <br>ends with the Hatching Day<br></p>"
     },
     {
       "id": 1213037,
@@ -367,7 +392,33 @@
           "week": 0
         }
       },
-      "description": "<p>Hatching Day, a day of joyous celebration <br>when young kobolds, dragonborn, wyverns, drakes, and <br>even true dragons are said to have their first birthday. <br>Indeed, many do hatch around this time, though rarely <br>precisely at the spring equinox.<br><\/p>"
+      "description": "<p>Hatching Day, a day of joyous celebration <br>when young kobolds, dragonborn, wyverns, drakes, and <br>even true dragons are said to have their first birthday. <br>Indeed, many do hatch around this time, though rarely <br>precisely at the spring equinox.<br></p>"
+    },
+    {
+      "name": "Road Opening Festival, Zobeck",
+      "data": {
+        "duration": 0,
+        "conditions": {
+          "Month": 2,
+          "Day": 26,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "Shortly after the Spring Festival, Zobeck celebrates the opening of the Great Northern Road running through the Margreve, marked when no snows can be seen from the Citadel. As with many festivals in the Free City, this entails a great deal of drinking and reveling. The merchants supply copious amounts of spirits for their workers and caravan leaders as both a reward for past service and a bracing for jobs yet to do."
+    },
+    {
+      "name": "Clockwork Festival, Zobeck",
+      "data": {
+        "duration": 0,
+        "conditions": {
+          "Month": 3,
+          "Day": 16,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "Each year in the month of Goldflower, when other nations celebrate the Crown Festival, all Zobeck honors Rava and her great gifts by celebrating the Clockwork Festival. Zobeckers know the Clockwork City would simply not live or prosper as it does without Rava\u00e2\u20ac\u2122s blessings and continued interest.\nOn this summer day, the citizens wreath Rava\u00e2\u20ac\u2122s creations\u00e2\u20ac\u201dthe gearforged and the various clockwork constructs\u00e2\u20ac\u201din flowers and parade them through the streets to cheers and joyful applause. Many families carry (or hire others to carry) their revered gearforged ancestors on palanquins. Clockwork items abound throughout the bustling markets, from tools to toys and even gear- and wheel-shaped cakes, and this attracts many travelers to the city during this time."
     },
     {
       "name": "Summer Festival",
@@ -380,7 +431,59 @@
           "week": 0
         }
       },
-      "description": "<p>A festival of warmth, trade, oaths, and friendship, the <br>Summer Festival occurs at a crossroads or fairground at <br>the solstice. The Summer Festival is a popular time for <br>marriages and betrothals, horse trading, and fair dealings <br>with strangers and old friends alike. Priests of Volund are <br>especially sought after to bless anvils and livestock, hold <br>funds for wagers, and negotiate marriage contracts. The <br>festival overwhelms trade for a day in hubs such as Triolo, <br>Capleon, Salzbach, and Zobeck.<br><\/p>"
+      "description": "<p>A festival of warmth, trade, oaths, and friendship, the <br>Summer Festival occurs at a crossroads or fairground at <br>the solstice. The Summer Festival is a popular time for <br>marriages and betrothals, horse trading, and fair dealings <br>with strangers and old friends alike. Priests of Volund are <br>especially sought after to bless anvils and livestock, hold <br>funds for wagers, and negotiate marriage contracts. The <br>festival overwhelms trade for a day in hubs such as Triolo, <br>Capleon, Salzbach, and Zobeck.<br></p>"
+    },
+    {
+      "name": "Festival of Light (Midsummer Festival), Zobeck",
+      "data": {
+        "duration": 0,
+        "conditions": {
+          "Month": 5,
+          "Day": 21,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "This festival celebrates the harvest of early crops and the long days of light. Lada\u00e2\u20ac\u2122s priestesses bless the harvests, heal the sick, and offer up prayers to provide for those who toil so that others may eat. The celebrants also honor Khors and his priests for the light that brings them bounty. The farmers make food offerings to the clerics of both gods. Lanterns, bonfires, and magical lights keep the fields bright from dusk until dawn."
+    },
+    {
+      "name": "River Fair, Zobeck",
+      "data": {
+        "duration": 0,
+        "conditions": {
+          "Month": 5,
+          "Day": 21,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "A part of Lada\u00e2\u20ac\u2122s Midsummer Festival, the River Fair is a trade fair that takes place along the Docks. Wanderers, bargemen, stevedores, and all the apprentices of the city join together for midsummer madness\u00e2\u20ac\u201dwith the Sisterhood and dwarven brewers providing the potables. Makeshift stalls line the Docks, and merchants hawk their wares in a bustle of noisy commerce. Barges anchor up and down the river, Kariv music flows into the city proper, and dancing abounds."
+    },
+    {
+      "name": "Volunds Festival, Zobeck",
+      "data": {
+        "duration": 0,
+        "conditions": {
+          "Month": 7,
+          "Day": 21,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "During the autumnal equinox in Redleaf, the priests of Volund offer their Fire Blessing to all weapons, armor, and metal tools (and some say to the gearforged as well) brought before them, whether at Volund\u00e2\u20ac\u2122s temple or at portable anvil stations set up throughout the city. This tremendously noisy event ends in a great and fiery nighttime service culminating in the Anvil Prayer. Throughout the festival, nearly every priest, smith, geargrinder, and steamworker in the city brings an anvil or a metal pan to hammer on during the chorus, creating a cacophonously beautiful salute to the forge god."
+    },
+    {
+      "name": "Miner\u2019s Holiday, Zobeck",
+      "data": {
+        "duration": 0,
+        "conditions": {
+          "Month": 7,
+          "Day": 23,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "During Redleaf and following Volund\u00e2\u20ac\u2122s Festival, the kobolds receive a celebratory release from all mining to exalt in their own Miner\u00e2\u20ac\u2122s Holiday. Kobolds actually begin celebrating the night before, which has become known as \"All Kobolds\u00e2\u20ac\u2122 Eve.\" On the Eve, groups of drunken kobolds\u00e2\u20ac\u201dsome 20 or more strong\u00e2\u20ac\u201dassail public houses to drink a week\u00e2\u20ac\u2122s wages and yip out traditional songs. Drinking, fighting, and property damage ensue. With the exception of the doubled Watch patrols, most of Zobeckers stay indoors or give the revelers a wide berth."
     },
     {
       "name": "Harvest Dance",
@@ -393,7 +496,20 @@
           "week": 0
         }
       },
-      "description": "<p>In the bright harvest moonlight, after the sheaves are <br>gathered and the threshed grain is stored in the granaries, <br>farmers celebrate with dances late at night. Dancing, <br>gambling, and merriment prevails, and music, foot races, <br>and even magical fireworks are sometimes part of the <br>celebrations. The festival takes different forms in every <br>nation, but all peasants and nobles count their blessings <br>at the end of the growing season and give thanks to Ceres <br>or Ninkash or Baccho. Shops, workshops, guildhalls, <br>and smithies all close during the harvest dances, and only <br>taverns, inns, and shrines are open.<br><\/p>"
+      "description": "<p>In the bright harvest moonlight, after the sheaves are <br>gathered and the threshed grain is stored in the granaries, <br>farmers celebrate with dances late at night. Dancing, <br>gambling, and merriment prevails, and music, foot races, <br>and even magical fireworks are sometimes part of the <br>celebrations. The festival takes different forms in every <br>nation, but all peasants and nobles count their blessings <br>at the end of the growing season and give thanks to Ceres <br>or Ninkash or Baccho. Shops, workshops, guildhalls, <br>and smithies all close during the harvest dances, and only <br>taverns, inns, and shrines are open.<br></p>"
+    },
+    {
+      "name": "Winter Festival of Khors, Zobeck",
+      "data": {
+        "duration": 0,
+        "conditions": {
+          "Month": 10,
+          "Day": 21,
+          "Moons": 0,
+          "week": 0
+        }
+      },
+      "description": "Roughly 200 years ago, House Stross and its aristocratic allies held the Winter Festival in the Cartways, in a cavern called the Winter Hall. The revelers travelled to the site in donkey-drawn carts filled with candles and were greeted with casks of wine large enough to dance on. Debauchery ensued. After the Great Revolt, the festival celebration changed. Much wine remains an important part of \nit, but the chilly festival now consists of a parade and feasts throughout the city."
     },
     {
       "name": "Lantern Festival",
@@ -406,20 +522,20 @@
           "week": 0
         }
       },
-      "description": "<p>A month after the winter solstice, when the night is dark <br>and spring seems most distant, the people celebrate the <br>returning sun with a parade of lanterns and candles. <br>They send prayers to Lada, Khors, and Aten in elaborate <br>ceremonies involving candles, lanterns, illumination <br>magic, and sometimes lantern or candle drakes. A torchlit <br>or candlelit singing parade might wind its way around an <br>entire town as part of the Lantern Festival; other places <br>send small floating lights into the sky as part of a solar <br>mass. The festival ends early for children, and at dawn for <br>the priests and the devout who maintain a vigil through <br>the night.<br><\/p>"
+      "description": "<p>A month after the winter solstice, when the night is dark <br>and spring seems most distant, the people celebrate the <br>returning sun with a parade of lanterns and candles. <br>They send prayers to Lada, Khors, and Aten in elaborate <br>ceremonies involving candles, lanterns, illumination <br>magic, and sometimes lantern or candle drakes. A torchlit <br>or candlelit singing parade might wind its way around an <br>entire town as part of the Lantern Festival; other places <br>send small floating lights into the sky as part of a solar <br>mass. The festival ends early for children, and at dawn for <br>the priests and the devout who maintain a vigil through <br>the night.<br></p>"
     },
     {
       "name": "Bemmea, Gathering of Thoth-Hermes",
       "data": {
-        "duration": 0,
+        "duration": 7,
         "conditions": {
           "Month": 9,
-          "Day": 0,
+          "Day": 8000,
           "Moons": 0,
           "week": 4
         }
       },
-      "description": "<p>The <\/p>\n\n<p>Bemmean midwinter fair of arcanists and bookbinders. <\/p>\n\n<p>Caters to mages, wizards, and other arcanists, with a <\/p>\n\n<p>smattering of priests of Thoth-Hermes.<\/p>\n\n<p> Specialties: arcana, cantrips, familiars<\/p>\n\n<p>Birch Fairgrounds, Birch Queen\u2019s Fair (Last Leaf (whenever)):<\/p>\n\n<p>\u00a0Deep in the Summer Lands side of the Arbonesse Forest, with <\/p>\n\n<p>an entrance somewhere along the Neurabon River, the <\/p>\n\n<p>Birch Queen\u2019s Fair buys and sells everything from cantrips <\/p>\n\n<p>and cloaks of elvenkind to memories, skills, and luck. A <\/p>\n\n<p>dangerous fair for those who are not wary. The shadow fey <\/p>\n\n<p>are often in attendance.<\/p>\n\n<p> Specialties: elf work, herbs, nuts, <\/p>\n\n<p>memory philters<\/p>"
+      "description": "<p>The </p><p>Bemmean midwinter fair of arcanists and bookbinders. </p><p>Caters to mages, wizards, and other arcanists, with a </p><p>smattering of priests of Thoth-Hermes.</p><p> Specialties: arcana, cantrips, familiars</p>"
     },
     {
       "name": "Rose Knight\u2019s Emporium (Redleaf)",
@@ -432,7 +548,7 @@
           "week": 0
         }
       },
-      "description": "<p>A mixture of <br>the ephemeral and the magically infused, this is perhaps <br>the most volatile and fleeting event of this kind, involving <br>perfumery, fey magic, dueling, the honor of the houses <br>of Dornig, and the swaggering strength of the alchemists <br>of Maillon. Banditry is common just outside Bourgund\u2019s <br>borders before and after the event<br> Specialties: perfumes, silks, lace<br><\/p>"
+      "description": "<p>A mixture of <br>the ephemeral and the magically infused, this is perhaps <br>the most volatile and fleeting event of this kind, involving <br>perfumery, fey magic, dueling, the honor of the houses <br>of Dornig, and the swaggering strength of the alchemists <br>of Maillon. Banditry is common just outside Bourgund\u2019s <br>borders before and after the event<br> Specialties: perfumes, silks, lace<br></p>"
     },
     {
       "name": "Capleon, Baron\u2019s Trade Fair",
@@ -445,7 +561,7 @@
           "week": 0
         }
       },
-      "description": "<p>Spices, salt, tea, and <br>more trade hands at the Baron\u2019s Fair. Notorious for <br>espionage, intrigue, and assassinations.<br> Specialties: fish, tea, salt, spice<br><\/p>"
+      "description": "<p>Spices, salt, tea, and <br>more trade hands at the Baron\u2019s Fair. Notorious for <br>espionage, intrigue, and assassinations.<br> Specialties: fish, tea, salt, spice<br></p>"
     },
     {
       "name": "Horse Trade, cronepisht",
@@ -458,7 +574,7 @@
           "week": 0
         }
       },
-      "description": "<p>Livestock of all kinds are <br>sold at the fair in Cronepisht, primarily sheep, oxen, and <br>cattle but also monsters such as winter wolves, double <br>eagles, dogmoles, and even some familiars. The most exotic <br>animal market outside Harkesh, Mhalmet, or Nuria.<br> Specialties: horses, oxen, sheep<br><\/p>"
+      "description": "<p>Livestock of all kinds are <br>sold at the fair in Cronepisht, primarily sheep, oxen, and <br>cattle but also monsters such as winter wolves, double <br>eagles, dogmoles, and even some familiars. The most exotic <br>animal market outside Harkesh, Mhalmet, or Nuria.<br> Specialties: horses, oxen, sheep<br></p>"
     },
     {
       "name": "Scribe\u2019s Fair (Sowing), Friula",
@@ -484,7 +600,7 @@
           "week": 0
         }
       },
-      "description": "<p>The fair deals in fish and <br>horses, amber and birchbark, linen, honey, and much <br>more from the Krakovan villages. A rival to the Zobeck <br>Midsummer Fair, but catering to the Northlands and <br>(recently) to the Morgau knights and troops.<br> Specialties: amber, fish, horses, blood <br>coins<br><\/p>"
+      "description": "<p>The fair deals in fish and <br>horses, amber and birchbark, linen, honey, and much <br>more from the Krakovan villages. A rival to the Zobeck <br>Midsummer Fair, but catering to the Northlands and <br>(recently) to the Morgau knights and troops.<br> Specialties: amber, fish, horses, blood <br>coins<br></p>"
     },
     {
       "name": "Dwarfmoot (Goldflower), Kubourg Cantonal",
@@ -497,7 +613,7 @@
           "week": 0
         }
       },
-      "description": "<p>Much more than a trade fair, the Kubourg Cantonal fair features dwarven ironwork, mercenary hiring and equipping, cheeses, woolens, and blades galore. It also provides court rulings on matters of cantonal law, the election of hall chieftains, an occasion for bride-prices and wergild to be paid, and raucous masses to Ninkash (which outsiders might consider drunken beer hall fights).<br> Specialties: cheeses, tools, wool<\/p>\n\n<p>(can last longer than listed)<br><\/p>"
+      "description": "<p>Much more than a trade fair, the Kubourg Cantonal fair features dwarven ironwork, mercenary hiring and equipping, cheeses, woolens, and blades galore. It also provides court rulings on matters of cantonal law, the election of hall chieftains, an occasion for bride-prices and wergild to be paid, and raucous masses to Ninkash (which outsiders might consider drunken beer hall fights).<br> Specialties: cheeses, tools, wool</p>\n\n<p>(can last longer than listed)<br></p>"
     },
     {
       "name": "Alchemist\u2019s Gatherum (Harvest Tide), Maillon",
@@ -510,7 +626,7 @@
           "week": 0
         }
       },
-      "description": "<p>The strange folk <br>of Maillon wait until after the harvest and then sell all <br>the potions they have left before winter sets in. Some <br>remarkable concoctions are available, as well as many <br>frauds. A side trade in ceramic containers and copperwork <br>has grown in recent years.<br> Specialties: alchemy, ceramics<br><\/p>"
+      "description": "<p>The strange folk <br>of Maillon wait until after the harvest and then sell all <br>the potions they have left before winter sets in. Some <br>remarkable concoctions are available, as well as many <br>frauds. A side trade in ceramic containers and copperwork <br>has grown in recent years.<br> Specialties: alchemy, ceramics<br></p>"
     },
     {
       "name": "Fleet Fair (Thunderers), Triolo",
@@ -523,7 +639,7 @@
           "week": 0
         }
       },
-      "description": "<p>The Fleet Fair started as a way to <br>equip Triolan ships and merchants of the Middle Sea with <br>sailcloth and rope. Now the Triolans sell a great deal of <br>spice and glass as well. Traditionally held on Sphinx Island <br>at the harbor entrance.<br> Specialties: glass, spices, sailcloth<br><\/p>"
+      "description": "<p>The Fleet Fair started as a way to <br>equip Triolan ships and merchants of the Middle Sea with <br>sailcloth and rope. Now the Triolans sell a great deal of <br>spice and glass as well. Traditionally held on Sphinx Island <br>at the harbor entrance.<br> Specialties: glass, spices, sailcloth<br></p>"
     },
     {
       "name": "Salt Fair (Redleaf), Salzbach",
@@ -536,7 +652,7 @@
           "week": 0
         }
       },
-      "description": "<p>The salt of Salzbach sells to the <br>highest bidders in the autumn of each year, and taken on <br>the roads before winter sets in. A quiet, mercantile fair <br>with little carousing and a lot of money changing hands.<br> Specialties: dyed leathers, salt<br><\/p>"
+      "description": "<p>The salt of Salzbach sells to the <br>highest bidders in the autumn of each year, and taken on <br>the roads before winter sets in. A quiet, mercantile fair <br>with little carousing and a lot of money changing hands.<br> Specialties: dyed leathers, salt<br></p>"
     },
     {
       "name": "Wine Week(Midsummer), Zigistad",
@@ -549,7 +665,7 @@
           "week": 0
         }
       },
-      "description": "<p>Vintners sell barrels of wine, <br>dwarves sell ingots of ore, and everyone goes home happy. <br>A rather rowdy festival in a devout city, sometimes leading <br>to brawls and arrests. Centaurs are explicitly not welcome. <br>Elfmarked priests of Baccho sometimes see it as a good <br>place to preach the tenets of that fading faith, and hold at <br>least one Drunkard\u2019s Mass during the week.<br> Specialties: metals, wine<br><\/p>"
+      "description": "<p>Vintners sell barrels of wine, <br>dwarves sell ingots of ore, and everyone goes home happy. <br>A rather rowdy festival in a devout city, sometimes leading <br>to brawls and arrests. Centaurs are explicitly not welcome. <br>Elfmarked priests of Baccho sometimes see it as a good <br>place to preach the tenets of that fading faith, and hold at <br>least one Drunkard\u2019s Mass during the week.<br> Specialties: metals, wine<br></p>"
     },
     {
       "name": "Midsummer Fair (Midsummer), Zobeck",
@@ -562,7 +678,7 @@
           "week": 0
         }
       },
-      "description": "<p>Featuring the finest <br>weaving, the most outrageous jewelry and clockworks, and <br>sometimes a flying city visiting from Sikkim. The Zobeck <br>Fair is a spectacle like no other, and recently, the shadow <br>fey have brought moonsteel weapons and memory philters<br>to sell at the fair. On rare occasions, the Griffon Knights <br>auction a surplus griffon egg.<br> Specialties: clockwork, fine weavings, <br>jewelry<br><\/p>"
+      "description": "<p>Featuring the finest <br>weaving, the most outrageous jewelry and clockworks, and <br>sometimes a flying city visiting from Sikkim. The Zobeck <br>Fair is a spectacle like no other, and recently, the shadow <br>fey have brought moonsteel weapons and memory philters<br>to sell at the fair. On rare occasions, the Griffon Knights <br>auction a surplus griffon egg.<br> Specialties: clockwork, fine weavings, <br>jewelry<br></p>"
     },
     {
       "name": "Axe Festival (Every Lunar Eclipse)",
@@ -575,10 +691,10 @@
           "week": 0
         }
       },
-      "description": "<p>A rare festival held during the red moon <br>of a lunar eclipse, the Axe Festival is a propitious time to <br>sacrifice to Hecate or (for those of darker bent) to Marena, <br>the Red Goddess. Blood rites, kidnappings, and ritual <br>torture can mar the celebrations, but some wizards and <br>witches swear by the festival\u2019s power when crafting new <br>magical items<br><\/p>"
+      "description": "<p>A rare festival held during the red moon <br>of a lunar eclipse, the Axe Festival is a propitious time to <br>sacrifice to Hecate or (for those of darker bent) to Marena, <br>the Red Goddess. Blood rites, kidnappings, and ritual <br>torture can mar the celebrations, but some wizards and <br>witches swear by the festival\u2019s power when crafting new <br>magical items<br></p>"
     },
     {
-      "name": "Bear King\u2019s Challenge (Some time, maybe in the spring)",
+      "name": "Bear King\u2019s Challenge",
       "data": {
         "duration": 1,
         "conditions": {
@@ -588,20 +704,20 @@
           "week": 0
         }
       },
-      "description": "<p>Each year in Bj\u00f6rnrike, or in <br>the fey lands near it, the Bear King calls the strong and the <br>wise to a set of challenges. Each year the challenges vary <br>somewhat, with old contests and new, and each year the <br>winner of the contests is crowned as the King of Bears\u2014<br>and some say, is transformed into one of the bearfolk! It is <br>a festival much recounted in song and fey poetry, though <br>the actual gathering is smaller than some.<br><\/p>"
+      "description": "<p>Each year in Bj\u00f6rnrike, or in <br>the fey lands near it, the Bear King calls the strong and the <br>wise to a set of challenges. Each year the challenges vary <br>somewhat, with old contests and new, and each year the <br>winner of the contests is crowned as the King of Bears\u2014<br>and some say, is transformed into one of the bearfolk! It is <br>a festival much recounted in song and fey poetry, though <br>the actual gathering is smaller than some.<br></p>"
     },
     {
       "name": "Armoring Fair (Mustering), Melana",
       "data": {
-        "duration": 1,
+        "duration": 2,
         "conditions": {
-          "Month": 20,
-          "Day": 0,
+          "Month": 0,
+          "Day": 12,
           "Moons": 0,
           "week": 0
         }
       },
-      "description": "<p>The smiths of Melana sell a <br>great deal of iron and weapons to their cantonal cousins <br>each year, and equally as much to the mercenaries of the <br>Seven Cities. The whole city reeks of oil and iron for days.<br> Specialties: armor, knives, weapons<br><\/p>"
+      "description": "<p>The smiths of Melana sell a <br>great deal of iron and weapons to their cantonal cousins <br>each year, and equally as much to the mercenaries of the <br>Seven Cities. The whole city reeks of oil and iron for days.<br> Specialties: armor, knives, weapons<br></p>"
     },
     {
       "name": "Ghost Night (first new moon of  the winter)",
@@ -609,12 +725,12 @@
         "duration": 0,
         "conditions": {
           "Month": 9,
-          "Day": 0,
+          "Day": 1,
           "Moons": "New Moon",
           "week": 0
         }
       },
-      "description": "<p>Also called Hag Night, this goblin festival <br>is honored with masks, invocations of the elders, and <br>candle offerings. The Ghost Night is the first new moon of <br>the winter, when things are their darkest. Some celebrants <br>smoke or offer requiem at this time, and seek answers <br>from departed elders.<br><\/p>"
+      "description": "<p>Also called Hag Night, this goblin festival <br>is honored with masks, invocations of the elders, and <br>candle offerings. The Ghost Night is the first new moon of <br>the winter, when things are their darkest. Some celebrants <br>smoke or offer requiem at this time, and seek answers <br>from departed elders.<br></p>"
     },
     {
       "name": "Night of Open Roads( first winter moon)",
@@ -622,12 +738,12 @@
         "duration": 0,
         "conditions": {
           "Month": 9,
-          "Day": 0,
+          "Day": 16,
           "Moons": "Full Moon",
           "week": 0
         }
       },
-      "description": "<p>The first winter moon is a <br>time to communicate with ancestors and spirits of the <br>dead. This festival is especially sacred to Charun, Lord <br>of the Dead. It is also an unusually good time to travel <br>to the Shadow Realm, to open portals, and to build <br>secret shrines or to raise the dead, and thus it is beloved <br>of necromancers. The festival\u2019s celebration is especially <br>common in Dornig and the Seven Cities.<br><\/p>"
+      "description": "<p>The first winter moon is a <br>time to communicate with ancestors and spirits of the <br>dead. This festival is especially sacred to Charun, Lord <br>of the Dead. It is also an unusually good time to travel <br>to the Shadow Realm, to open portals, and to build <br>secret shrines or to raise the dead, and thus it is beloved <br>of necromancers. The festival\u2019s celebration is especially <br>common in Dornig and the Seven Cities.<br></p>"
     },
     {
       "name": "Slaughter Festival",
@@ -640,7 +756,7 @@
           "week": 0
         }
       },
-      "description": "<p>Also called the Brewer\u2019s Festival, <br>the Slaughter Festival focuses around meat and drink: <br>the autumn butchering plus drinking the first ale of the <br>season, overseen by the clergy of Ninkash. Animals are <br>smoked or salted for the winter, and the best beer is chosen <br>by the goddess (or her priests). Trombei holds the largest <br>celebration of the Slaughter Festival. Priests of the Hunter <br>celebrate as well, though generally only in the dark woods; <br>stories claim their sacrifice is always a grown man or <br>woman, hunted through the forests, their boiled bones left <br><\/p>"
+      "description": "<p>Also called the Brewer\u2019s Festival, <br>the Slaughter Festival focuses around meat and drink: <br>the autumn butchering plus drinking the first ale of the <br>season, overseen by the clergy of Ninkash. Animals are <br>smoked or salted for the winter, and the best beer is chosen <br>by the goddess (or her priests). Trombei holds the largest <br>celebration of the Slaughter Festival. Priests of the Hunter <br>celebrate as well, though generally only in the dark woods; <br>stories claim their sacrifice is always a grown man or <br>woman, hunted through the forests, their boiled bones left <br></p>"
     }
   ],
   "event_categories": [
@@ -682,4 +798,3 @@
     }
   ]
 }
-
